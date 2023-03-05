@@ -1,0 +1,26 @@
+.movieList {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.movieList::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.movieList::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.movieList-main {
+  padding: 10px;
+}
+
+.movieTitle {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 8px;
+}
